@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>To Do List</title>
     <link href="./style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sniglet&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>To Do List</h1>
+    <h1 class="title">To Do List</h1>
     <form id="todoForm">
         <input id="todoInput">
-        <button type="button" onclick="addTodo()">Click Me</button>
+        <button id="myBtn" type="button" onclick="addTodo()">Add It</button>
     </form>
     <ol id="todoList">
         <!--Everything goes into here-->
